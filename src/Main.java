@@ -32,9 +32,10 @@ public class Main {
         System.out.println("День варенья Нуф-Нуфа " + nufNuf[0] + " числа");
 
         System.out.println("Task 2");
-        System.out.printf("%d, %d, %d\n",nifNif[0], nifNif[1], nifNif[2]);
+        System.out.printf("%d, %d, %d\n", nifNif[0], nifNif[1], nifNif[2]);
         System.out.printf("%f, %f, %f\n", nafNaf[0], nafNaf[1], nafNaf[2]);
         System.out.printf("%f, %f, %f, %f, %f, %f, %f,\n", nufNuf[0], nufNuf[1], nufNuf[2], nufNuf[3], nufNuf[4], nufNuf[5], nufNuf[6]);
+
     }
 
 }
