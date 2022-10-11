@@ -45,8 +45,46 @@ public class Main {
         }
         System.out.println();
 
+        for (int i = 0; i < nafNaf.length; i++) {
+            System.out.print(nafNaf[i]);
+            if (i != nafNaf.length - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
 
+        for (int i = 0; i < nufNuf.length; i++) {
+            System.out.print(nufNuf[i]);
+            if (i != nufNuf.length - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
 
+        System.out.println("Task 3");
+        for (int i = nifNif.length - 1; i >= 0; i--) {
+            System.out.print(nifNif[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+
+        for (int i = nafNaf.length - 1; i >= 0; i--) {
+            System.out.print(nafNaf[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+
+        for (int i = nufNuf.length - 1; i >= 0; i--) {
+            System.out.print(nufNuf[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
     }
 
 }
