@@ -36,13 +36,17 @@ public class Main {
         System.out.printf("%f, %f, %f\n", nafNaf[0], nafNaf[1], nafNaf[2]);
         System.out.printf("%f, %f, %f, %f, %f, %f, %f,\n", nufNuf[0], nufNuf[1], nufNuf[2], nufNuf[3], nufNuf[4], nufNuf[5], nufNuf[6]);
 
-        System.out.println("Task 3");
-        int i = nifNif.length - 1;
-        for (; i >= 0; i--) {
-            System.out.println(nifNif[i]);
-
-            System.out.println(nafNaf[i]);
+        System.out.println("Task 2 - remake");
+        for (int i = 0; i < nifNif.length; i++) {
+            System.out.print(nifNif[i]);
+            if (i != nifNif.length - 1) {
+                System.out.print(", ");
+            }
         }
+        System.out.println();
+
+
+
     }
 
 }
