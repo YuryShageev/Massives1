@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         firstTask();
@@ -85,6 +87,26 @@ public class Main {
             }
         }
         System.out.println();
+
+        System.out.println("Task 4");
+        for (int i = 0; i < nifNif.length; i+=1) {
+            if (nifNif[i] % 2 != 0) {
+                nifNif[i] += 1;
+            }
+            if (i < nifNif.length + 1 && i > 0) {
+                System.out.print(", ");
+            }
+            System.out.print(nifNif[i]);
+        }
+        System.out.println();
+
+        System.out.println("Task 4 - remake");
+        for (int i = 0; i < nifNif.length; i++) {
+            if (nifNif[i] % 2 != 0) {
+                nifNif[i] += 1;
+            }
+        }
+        System.out.println(Arrays.toString(nifNif));
     }
 
 }
